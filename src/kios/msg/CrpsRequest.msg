@@ -1,0 +1,3 @@
+string serialVersionUID
+bool request_active
+Telemetry telemetry

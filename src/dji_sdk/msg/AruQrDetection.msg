@@ -1,0 +1,6 @@
+Header header
+geometry_msgs/Point img_center
+geometry_msgs/Point landing_zone_center
+float32 landing_zone_error
+
+bool using_aruco

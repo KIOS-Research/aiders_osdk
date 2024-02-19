@@ -1,0 +1,2 @@
+uint32 crps_request_ack_count
+CrpsRequest[] crps_request_ack_list

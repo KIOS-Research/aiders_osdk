@@ -1,0 +1,16 @@
+[Unit]
+Description=aiders_osdk - 19-12-2022
+
+#Requires=hotspot.service
+Requires=jetson_hotspot.service 
+After=network.target jetson_time.service 
+
+[Service]
+User=root
+
+WorkingDirectory=/home/jetson/Documents/aiders_osdk/autostart
+
+ExecStart=/bin/bash -c './autostartService.sh >> autostartService.log'
+
+[Install]
+WantedBy=multi-user.target
